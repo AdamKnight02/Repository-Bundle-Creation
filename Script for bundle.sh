@@ -7,12 +7,12 @@
 # Configuration
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CONFIG_FILE="${SCRIPT_DIR}/bundle_config.sh"
-BUNDLE_DIR="/mnt/c/RavenTestRepo/bundles"
-LOG_DIR="/mnt/c/RavenTestRepo/logs"
+BUNDLE_DIR=""
+LOG_DIR=""
 LOG_FILE="${LOG_DIR}/bundle_operations.log"
 
 # Default variables (can be overridden by config file)
-REPO_DIR="/mnt/c/Raven/src/RDE.MainSite/ClientApp"
+REPO_DIR=""
 BASELINE_VERSION="1.0.0"
 
 # Load configuration if it exists
